@@ -1,0 +1,101 @@
+* {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-search {
+    margin: auto 20px auto auto;
+  }
+  .header-search__input {
+    width: 200px;
+    height: 30px;
+  }
+  .header-search__button {
+    width: 40px;
+    height: 30px;
+    background-color: #9B51E0;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    margin-left: -5px;
+  }
+  
+  
+
+  .header-menu-list__item:hover {
+    background-color: #FFC740;
+  }
+  .header-menu-list__item:hover > a {
+    color: white !important;
+  }
+  
+  .banner {
+    height: 20rem;
+    background: url(../img/Mountains-and-hills-julian-alps.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  .banner-description {
+    width: 55%;
+  }
+  .banner-description__title {
+    font-size: 4rem;
+  }
+ 
+  .banner-description__button {
+    margin-top: 1rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: #9B51E0;
+    border: none;
+    text-transform: uppercase;
+  }
+  
+  
+  .article {
+    margin-top: 2rem;
+    width: 46%;
+  }
+
+  .article-ava {
+    border: 2px solid #FFC740;
+  }
+  .articleContent__text {
+    overflow: auto;
+    max-height: 120px;
+  }
+  .articleContent__more, .articleContent__tags {
+    margin-top: auto;
+  }
+  .articleContent__more {
+    text-decoration: underline;
+  }
+  .article-list__item__img {
+    height: 45px;
+    width: 70px;
+  }
+  .article-list__item__content__title {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  .block-header__text {
+    text-transform: uppercase;
+  }
+  .block-header-bgsecond {
+    background-color: #9B51E0;
+  }
+  .block-header-bgfirst {
+    background-color: #FFC740;
+  }
+  .footer {
+    height: 100px;
+    background-color: #9B51E0;
+  }
+  
+
+  
+  /*# sourceMappingURL=styles.css.map */
+  
